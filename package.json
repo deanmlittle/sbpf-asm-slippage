@@ -1,0 +1,24 @@
+{
+  "name": "sbpf-asm-slippage",
+  "description": "Created with sBPF",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "cross-env SIGNER=$(cat ~/.config/solana/id.json) mocha --import=tsx tests/**/*.ts"
+  },
+  "dependencies": {
+    "@solana/spl-token": "^0.4.8",
+    "@solana/web3.js": "^1.91.8",
+    "bn.js": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.1.5",
+    "@types/chai": "^4.3.16",
+    "@types/mocha": "^10.0.6",
+    "chai": "^5.1.1",
+    "cross-env": "^7.0.3",
+    "mocha": "^10.4.0",
+    "tsx": "^4.11.0"
+  }
+}
