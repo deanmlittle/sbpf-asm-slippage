@@ -9,6 +9,7 @@ Size:    `~1.3kb`
 Compute: `4cus` (pass case)
 IX data: `8b`
 
-Mainnet CA: `sbpf-asm-slippageDtv5JQT6LSmxRscz6ACiDuur5ZDcRnE8JFYmw8dj`
+##### How do I use it?
+Mainnet CA: `pixDtv5JQT6LSmxRscz6ACiDuur5ZDcRnE8JFYmw8dj`
 
 Created with [sbpf](https://github.com/deanmlittle/sbpf)
