@@ -5,8 +5,11 @@ A simple, single instruction program to assert the balance of a token account is
 Written with ❤️ in sBPF ASM for maximum efficiency with minimal footprint.
 
 ##### Costs
+
 Size:    `~1.3kb`
+
 Compute: `4cus` (pass case)
+
 IX data: `8b`
 
 ##### How do I use it?
